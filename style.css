@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color:#000000;
+font-family: 'Press Start 2P', cursive;
+text-align: center;
+color: #00FF41;
+justify-content: center;
+display: flex;
+align-items: center;
+min-height: 100vh;
+flex-direction: column;
+}
+h1{ 
+    color: rgb(25, 235, 25);
+    padding: 10px 20px;
+    text-align: center;
+}
+a{
+    color: rgb(4, 255, 17);
+    font-size:x-large;
+    font-weight: bold;
+    font-family: 'Jim Nightshade', cursive;
+}
+
+img{
+    margin-top: 20px;
+    height: 200px;;
+    width: 200px;
+    border: 5px dotted rgb(0, 219, 48);
+    text-align: center;
+    border-radius: 25%;
+
+}
+
+#link{
+background-color: rgb(0, 0, 0);
+margin-top: 20px;
+padding: 20px 0px;
+}
+
+span{
+font-weight: small;
+color: aliceblue;
+}
+
+h2[data-testid="SlackUserName"],p[data-testid="currentDayOfTheWeek"],p[data-testid="currentUTCTime"],p[data-testid="myTrack"]{
+font-size: 16px;
+}
+
