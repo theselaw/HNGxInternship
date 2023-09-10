@@ -5,3 +5,6 @@ document.querySelector('[data-testid="currentDayOfTheWeek"]').innerHTML= current
 const currentUTCTime= Date.now();
 
 document.querySelector('[data-testid="currentUTCTime"]').textContent = currentUTCTime;
+
+updateCurrentTime()
+setInterval(updateCurrentTime, 1000);
